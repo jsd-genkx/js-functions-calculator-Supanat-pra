@@ -5,7 +5,7 @@ function add(num1,num2) {
     return num1 + num2;
 };
 
-function substract(num1,num2) {
+function subtract(num1,num2) {
     return num1 - num2;
 };
 
@@ -31,8 +31,8 @@ function validateInputs(num1,num2) {
 function calculator(num1,num2,operation) {
     if (operation === "add")
         return add(num1,num2);
-    else if (operation === "substract" ) {
-        return substract(num1,num2);
+    else if (operation === "subtract" ) {
+        return subtract(num1,num2);
     }
     else if (operation === "multiply" ) {
         return multiply(num1,num2);
